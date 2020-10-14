@@ -1,11 +1,15 @@
 bower_components/
 node_modules/
 
+
+bundle/bundle.out.js
+
+.vscode/
 .idea/
 *.iml
 my.env
+my.*.env
 
-*.env
 static/bower_components/
 .*.sw?
 .DS_Store
@@ -15,3 +19,14 @@ static/bower_components/
 
 # istanbul output
 coverage/
+
+npm-debug.log
+*.heapsnapshot
+
+/tmp
+/.vs
+/cgm-remote-monitor.njsproj
+/cgm-remote-monitor.sln
+/obj/Debug
+/bin
+/*.bat
